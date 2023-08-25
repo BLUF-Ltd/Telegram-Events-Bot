@@ -67,7 +67,7 @@ The key properties that are used are
 		
 The multilingual text object parses a piece of text to detect language markup, splitting it into separate elements for each of the
 four languages (english, german, french, spanish) that we support. If there's no markup, then the $default property has all the text,
-otherwise the english will be in the $lang_end property.
+otherwise the english will be in the $lang_en property.
 
 These descriptions may also have other markup in them, including BLUF markup for things like profile references, and ordinary Markdown.
 So, our \BLUF\text\parser object handles the pre-processing required for that.
