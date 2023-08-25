@@ -12,7 +12,7 @@ you want the bot to post, like BLUF Calendar, by selecting New Channel in the Te
 Then, you start a conversation with the [Bot Father bot](https://t.me/BotFather), which will guide you through the
 process when you send it the command
 
-			/start
+		/start
 
 Give the bot a friendly name (ours is called BLUFcal), and then a username, which must end in bot; ours is BLUFCalendarBot.
 
@@ -29,7 +29,7 @@ Telegram are in the file KEYStelegram.php:
 The webhook URL you see there is for the optional part of this code that lets someone send a message to the bot with the
 name of a city, to see what's coming up in that location.
 
-When the bot has been successfully created, go to your channel in the Telegrap app, select Manage Channel, and add the bot
+When the bot has been successfully created, go to your channel in the Telegram app, select Manage Channel, and add the bot
 as an administrator, which will allow it to post messages.
 
 ## Setting up your environment
@@ -44,7 +44,7 @@ There are some other files you'll see included in the scripts. Here's a quick gu
 This file contains various constant definitions, including parameters to access the database.
 
 ### apifunctions.php
-This contains functions to initialised our database connection, connecting to either our live or test server, and to initialise
+This contains functions to initialise our database connection, connecting to either our live or test server, and to initialise
 the Redis cache, which helps reduce the load on the database.
 
 ### BLUFClasses.php
