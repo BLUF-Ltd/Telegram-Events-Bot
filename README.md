@@ -123,7 +123,7 @@ the Telegram service, when someone starts a conversation with your bot. In our c
 in event cities (and their localised names, which we also store, so people can search for 'Wien' or 'Vienna', for instance), and if any are
 found, it sends them back a summary message with the names and dates, plus a link to see more details on the calendar web site.
 
-To set the bot up, you will need to install the [telegram.php](telegram.php] script somewhere on your server where it's accessible to the outside world, 
+To set the bot up, you will need to install the [telegram.php](telegram.php) script somewhere on your server where it's accessible to the outside world, 
 and make sure that URL is defined as WEBHOOK_URL in the KEYStelegram.php file. 
 
 Then, from the command line on your server, run the [register_telegram_webhook.php](register_telegram_webhook.php) script to tell Telegram where you want to receive messages:
