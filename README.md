@@ -81,7 +81,7 @@ are wrapped in italic tags, using the venue name if available, otherwise the cit
 Then we append the plain text for the description, followed by a link to the public page on the BLUF calendar.
 
 ## The main Telegram feed
-The main part of this project is the event_telegram_feed.php file. This is a script that's designed to be run at intervals, for example
+The main part of this project is the [event_telegram_feed.php](event_telegram_feed.php) file. This is a script that's designed to be run at intervals, for example
 from cron. It takes at least one parameter, which is the mode option, eg 
 
 		php8.2 event_telegram_feed.php --mode=daily
@@ -123,10 +123,10 @@ the Telegram service, when someone starts a conversation with your bot. In our c
 in event cities (and their localised names, which we also store, so people can search for 'Wien' or 'Vienna', for instance), and if any are
 found, it sends them back a summary message with the names and dates, plus a link to see more details on the calendar web site.
 
-To set the bot up, you will need to install the telegram.php script somewhere on your server where it's accessible to the outside world, 
+To set the bot up, you will need to install the [telegram.php](telegram.php] script somewhere on your server where it's accessible to the outside world, 
 and make sure that URL is defined as WEBHOOK_URL in the KEYStelegram.php file. 
 
-Then, from the command line on your server, run the register_telegram_webhook.php script to tell Telegram where you want to receive messages:
+Then, from the command line on your server, run the [register_telegram_webhook.php](register_telegram_webhook.php) script to tell Telegram where you want to receive messages:
 
 		php8.2 register_telegram_webhook.php
 		
